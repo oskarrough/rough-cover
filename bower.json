@@ -1,0 +1,14 @@
+{
+    "name": "rough-cover",
+    "version": "0.1",
+    "author": "Oskar Rough Mosumgaard",
+    "description": "Fallback for background-size cover",
+    "main": [
+    	"rough-cover.css",
+    	"rough-cover.js"
+    ],
+    "dependencies": {
+    	"jquery": "latest",
+        "modernizr": "latest"
+    }
+}

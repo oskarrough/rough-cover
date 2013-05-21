@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset=utf-8 />
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
+	<link rel="stylesheet" href="rough-cover.css">
+	<title>Rough Cover</title>
+</head>
+<body>
+  
+	<p>fluid with intrinsic ratio</p>
+	<div class="Cover Cover--intrinsic"></div>
+	
+	<p>fluid with fixed height - centered both vertically und horizontally</p>
+	<div class="Cover Cover--fixed"></div>
+
+	<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+	<script src="rough-cover.js"></script>
+	<script>
+	$(function(){
+		$('.Cover').roughCover();
+	});
+	</script>
+  
+</body>
+</html>

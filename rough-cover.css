@@ -1,0 +1,36 @@
+/* the original image is 1440x900px */
+.Cover {	
+	background-image: url(https://dl.dropboxusercontent.com/u/638306/dinowar.jpg);
+	background-position: 50% 50%;
+	background-repeat: none;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	margin-bottom: 1em;
+	position: relative;
+}
+
+/* Instrinsic-ratio method*/
+.Cover--intrinsic {
+	height: 0;
+	padding-bottom: calc((900/1440)*100%);
+}
+
+/* Fixed height method */
+.Cover--fixed {
+	height: 100px;
+}
+
+/* Inline image, used as fallback */
+.Cover-fallback {
+	position: absolute;
+	overflow: hidden;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+.Cover-fallbackImage {
+	min-height: 100%;
+	max-width: 100%;
+}
