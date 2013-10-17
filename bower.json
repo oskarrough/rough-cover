@@ -1,6 +1,6 @@
 {
   "name": "rough-cover",
-  "version": "0.4",
+  "version": "0.4.0",
   "author": "Oskar Rough Mosumgaard",
   "description": "Fallback for background-size cover",
   "main": [
