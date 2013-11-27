@@ -5,13 +5,20 @@
 	<title>Rough Cover</title>
 	<script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
 	<link rel="stylesheet" href="rough-cover.css">
+	<style>
+		/* Demo styles */
+		.Cover {
+			background-image: url(http://i.imgur.com/2e4uVUg.jpg);
+			margin-bottom: 1em;
+		}
+	</style>
 </head>
 <body>
-  
-	<p>fluid with intrinsic ratio</p>
+
+	<p>Fluid with intrinsic ratio. Overwrite the ratio in your own CSS.</p>
 	<div class="Cover Cover--intrinsic"></div>
-	
-	<p>fluid with fixed height - centered both vertically und horizontally</p>
+
+	<p>Fluid with fixed height, centered both vertically und horizontally. Overwrite the height in your own CSS.</p>
 	<div class="Cover Cover--fixed"></div>
 
 	<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
@@ -21,6 +28,6 @@
 		$('.Cover').roughCover();
 	});
 	</script>
-  
+
 </body>
 </html>

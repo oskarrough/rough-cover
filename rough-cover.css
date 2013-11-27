@@ -1,12 +1,10 @@
-/* the original image is 1440x900px */
-.Cover {	
-	background-image: url(http://i.imgur.com/2e4uVUg.jpg);
+/* The original image is 1440x900px */
+.Cover {
 	background-position: 50% 50%;
 	background-repeat: none;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
-	margin-bottom: 1em;
 	position: relative;
 }
 
@@ -21,7 +19,7 @@
 	height: 100px;
 }
 
-/* Inline image, used as fallback */
+/* Inline image, created by JavaScript as fallback */
 .Cover-fallback {
 	position: absolute;
 	overflow: hidden;
